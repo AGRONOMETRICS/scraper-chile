@@ -1,0 +1,68 @@
+# Python virtual environment
+env/
+venv/
+.venv/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables (contains database credentials)
+.env
+.env.local
+.env.*.local
+
+# Generated CSV files
+*.csv
+clean_exports_*.csv
+clean_imports_*.csv
+combined_trade_*.csv
+
+# Log files
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database files (if using SQLite locally)
+*.db
+*.sqlite
+*.sqlite3
+
+# Data folders (uncomment if data files are too large)
+# exports/
+# imports/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+files/
+.claude
+
+# Cached API responses and run logs
+/data/*
+!/data/.gitkeep
+logs/
